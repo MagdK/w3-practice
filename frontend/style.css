@@ -34,7 +34,7 @@
 	}
 
 
-	#root {
+/* 	#root {
 		background-color: #28020F;
 	}
 
@@ -45,104 +45,74 @@
 	#root .container .container.wrapper {
 		width: 200px;
 		height: 200px;
-	}
+	} */
 
 	#cube1 {
-		background-color: #590421;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
+		position: fixed;
+		right: 0;
+		bottom: 0;
 		width: 400px;
 		height: 400px;
+		background-color: #590421;
 	}
 
 	#cube2 {
-		background-color: #890733;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		width: 380px;
 		height: 380px;
+		background-color: #890733;
 	}
 
 	#cube3 {
-		background-color: #ba0946;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		width: 360px;
 		height: 360px;
+		background-color: #ba0946;
 	}
 
 	#cube4 {
-		background-color: #ea0c58;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		width: 340px;
 		height: 340px;
+		background-color: #ea0c58;
 	}
 
 	#cube5 {
-		background-color: #f53476;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		width: 320px;
 		height: 320px;
+		background-color: #f53476;
 	}
 
 	#cube6 {
-		background-color: #f76597;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		width: 300px;
 		height: 300px;
+		background-color: #f76597;
 	}
 
 	#cube7 {
-		background-color: #fa95b8;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
+		position: fixed;
+		left: 0;
+		top: 0;
 		width: 280px;
 		height: 280px;
+		background-color: #fa95b8;
 	}
-
+	
 	#cube8 {
-		background-color: #fcc6d8;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		width: 260px;
 		height: 260px;
+		background-color: #fcc6d8;
 	}
 
 	#cube9 {
-		background-color: #fddee9;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		width: 240px;
 		height: 240px;
+		background-color: #fddee9;
 	}
 
 	#cube10 {
-		background-color: #fff6f9;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		width: 220px;
 		height: 220px;
+		background-color: #fff6f9;
+	}
+
+	div {
+		margin: auto;
 	}
