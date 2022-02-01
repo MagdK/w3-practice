@@ -33,105 +33,31 @@
 	border-radius: 0; 
 	}
 
+	/* RESET OVER */
 
-/* 	#root {
-		background-color: #28020F;
-	}
+section {
+	min-height: 100vh;
+}
 
-	div.container.wrapper {
-		background-color: #131517;
-	}
+section button {
+	width: 100px;
+	height: 40px;
+	background-color: aquamarine;
+}
 
-	#root .container .container.wrapper {
-		width: 200px;
-		height: 200px;
-	} */
+section.image-holder img {
+	width: 100%;
+	height: 100vh;
+	object-fit: contain;
+}
 
-	#cube1 {
-		position: absolute;
-		top: 10px;
-		left: 10px;
-		width: 400px;
-		height: 400px;
-		background-color: #590421;
-	}
-
-	#cube2 {
-		width: 380px;
-		height: 380px;
-		background-color: #890733;
-	}
-
-	#cube3 {
-		width: 360px;
-		height: 360px;
-		background-color: #ba0946;
-	}
-
-	#cube4 {
-		width: 340px;
-		height: 340px;
-		background-color: #ea0c58;
-	}
-
-	#cube5 {
-		width: 320px;
-		height: 320px;
-		background-color: #f53476;
-	}
-
-	#cube6 {
-		width: 300px;
-		height: 300px;
-		background-color: #f76597;
-	}
-
-	#cube7 {
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		width: 280px;
-		height: 280px;
-		background-color: #fa95b8;
-	}
-	
-	#cube8 {
-		width: 260px;
-		height: 260px;
-		background-color: #fcc6d8;
-	}
-
-	#cube9 {
-		width: 240px;
-		height: 240px;
-		background-color: #fddee9;
-	}
-
-	#cube10 {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 220px;
-		height: 220px;
-		background-color: #fff6f9;
-	}
-
-	div {
-		margin: auto;
-	}
-
-	section {
-		position: relative;
-		width: 100%;
-		height: 100vh;
-		border-bottom: 1px solid #000;
-	}
-
-	section button {
-		position: absolute;
-		right: 30px;
-		bottom: 30px;
-		width: 200px;
-		height: 60px;
-		background-color: cadetblue;
-	}
+section.background-holder {
+	padding: 20px;
+	border: 10px solid rgba(15, 80, 95, 0.5);
+	background-clip: border-box;
+	background-image: url("unsplash_image.png");
+	background-size: 200px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: black;
+}
