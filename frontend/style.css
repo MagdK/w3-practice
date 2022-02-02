@@ -172,6 +172,7 @@ section.image-holder button:hover {
 
 #services p {
 	font-weight: 300;
+	padding-bottom: 10px;
 }
 
 #services ul li h3,
