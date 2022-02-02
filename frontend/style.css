@@ -170,8 +170,8 @@ section.image-holder button:hover {
 	padding-bottom: 20px;
 }
 
-#services ul li p {
-	font-weight: 400;
+#services p {
+	font-weight: 300;
 }
 
 #services ul li h3,
