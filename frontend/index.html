@@ -5,39 +5,66 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 	<title>W3 - practice  pos-in-practice</title>
 </head>
 <body>
-	<section id="section1">
+	<section class="image-holder" id="welcome">
+		<img src="img-0.png" class="image" alt="Random plant image from Unsplash on black background">
+		<h1>Connect with nature</h1>
 		<button>
-			<span>Click me</span>
+			<span>Do it now</span>
 		</button>
 	</section>
-	<section id="section2">
-		<form>
-			<label for="fname">First name:</label><br>
-			<input type="text" id="fname" name="fname"><br>
-			<label for="lname">Last name:</label><br>
-			<input type="text" id="lname" name="lname">
-		  </form>
+	<section class="background-holder" id="about">
+		<article>
+			<h2>Reasons to connect</h2>
+			<p>
+				Spending time in green space or bringing nature into your everyday life can benefit both your mental and physical wellbeing. For example, doing things like growing food or flowers, exercising outdoors or being around animals can have lots of positive effects.
+			</p>
+		</article>
 	</section>
-	<section class="background-holder">
-		<p>
-		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex neque assumenda nam cupiditate eveniet repudiandae, fuga perspiciatis vero natus similique, omnis possimus. Voluptate minus consectetur praesentium quis quos maxime velit!
-		Labore maiores illum vero reprehenderit quibusdam molestiae eveniet sequi excepturi consequuntur. Iusto incidunt nam aliquid cupiditate quidem temporibus iure quis mollitia, minima possimus asperiores cum tenetur veritatis perspiciatis labore? 
-		Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
-		</p>
+	<section item id="services">
+		<article>
+			<h2>Ways to get in touch with nature</h2>
+			<ul>
+				<li>
+					<h3>Look up</h2>
+					<p>Stars are a good reminder of our place within the universe, and contemplating how small we are in the grand scheme of things can be humbling and put things into perspective. Suddenly the trivial “problems” we have don’t seem so problematic.</p>
+				</li>
+				<li>
+					<h3>Look down</h2>
+					<p>I once read that if all the insects on Earth suddenly disappeared, within 50 years all life would become extinct; and that if all humans suddenly disappeared, all life would flourish. This really drives home the importance of these little creatures crawling around on the ground and buzzing around our ears. </p>
+				</li>
+				<li>
+					<h3>Go out in the rain without an umbrella</h2>
+					<p>The practice of letting go and allowing nature to take its course without my intervention was metaphorical for me that day. It taught me a valuable life lesson about the illusion of control.</p>
+				</li>
+				<li>
+					<h3>Plant a garden</h2>
+					<p>Tending to the plants and watching them grow on a regular basis brings a whole new level of appreciation for where our food comes from and puts us more in touch with the natural cycle of birth, life, and death.</p>
+				</li>
+				<li>
+					<h3>Get away from your screen and go for a walk</h2>
+					<p>If you’re sitting in front of a screen, it means you aren’t in touch with nature. Switch it off and go find some green space.</p>
+				</li>
+			</ul>
+		</article>
 	</section>
-	<section class="image-holder">
-		<img src="img-0.png" class="image" alt="Random plant image from Unsplash on black background">
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ut odit debitis provident deleniti inventore accusantium ipsum fuga, nam autem eos officiis sequi in repellat mollitia non totam saepe blanditiis?
-			Ratione magnam alias culpa nemo voluptates illum voluptas animi vel optio quos, architecto tempora officiis voluptate veritatis ut doloremque ab reprehenderit iure expedita? Quam cum sapiente in omnis error repellat!
-			Praesentium nulla tempore, ipsam saepe voluptatem maxime eveniet neque aut est voluptate dolorum laudantium laboriosam voluptas odio omnis voluptatibus aliquid nihil. Eveniet exercitationem fugit nobis nam itaque magni, modi voluptates?
-			Architecto laborum nisi dicta maiores porro? Optio ducimus esse consequatur dolorum dolorem natus et corporis rerum explicabo. Ducimus aliquid, debitis, similique impedit voluptatem animi velit beatae assumenda consequatur hic vero.
-			Minus delectus modi laborum fugit ratione atque dolorem harum exercitationem. Repellendus asperiores ullam natus, earum, minima ea aspernatur obcaecati numquam voluptate quo facilis? Repellendus, voluptatem perspiciatis ea eligendi sapiente doloribus.
-		</p>
-	
+	<section id="contact">
+		<article>
+			<h2>Open for more ideas?</h2>
+			<p>Subscribe to our weekly newsletter. You won't regret it, I promise.</p>
+			<form>
+				<label for="name">Your name</label>
+				<input type="text" placeholder="Your name" id="name" required><br>
+				<label for="email">Email</label>
+				<input type="text" placeholder="Email" id="email" required><br>
+				<button>Subscribe</button>
+			  </form>
+		</article>
 	</section>
 </body>
 </html>
