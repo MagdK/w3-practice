@@ -54,29 +54,24 @@ p {
 	color: #151515;
 }
 
-section.image-holder img {
-	width: 100%;
-	height: 100vh;
-	object-fit: contain;
-}
-
-section.image-holder {
+#welcome {
 	height: 100vh;
 	overflow: hidden;
 }
-
-section.image-holder img {
+#welcome img {
 	position: absolute;
 	display: block;
 	top: 0;
 	right: 0;
 	width: 100%;
 	height: 100vh;
-	object-fit: cover;
 	z-index: -1;
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
 }
 
-section.image-holder h1 {
+#welcome h1 {
 	height: 100px;
 	font-family: 'Libre Baskerville', serif;
 	font-size: 80px;
@@ -86,7 +81,7 @@ section.image-holder h1 {
 	text-align: center;
 }
 
-section.image-holder button {
+#welcome button {
 	position: absolute;
 	bottom: 0;
 	left: 50%;
@@ -103,7 +98,7 @@ section.image-holder button {
 	letter-spacing: 0.1em;
 }
 
-section.image-holder button:hover {
+#welcome button:hover {
 	background-color: white;
 	color: #151515;
 	border: 2px solid black;
