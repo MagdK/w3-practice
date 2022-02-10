@@ -14,7 +14,10 @@
 // console.log( 0 === "0" )
 
 
-function loadEvent(eventObject){
+
+
+
+function loadEvent(eventObject) {
     // console.log(eventObject)
     const roootElement = document.getElementById("root");
     // console.dir(document);
