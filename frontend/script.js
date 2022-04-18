@@ -2,7 +2,7 @@ function addTwoIntegers(firstInteger, secondInteger) {
     // console.log(firstInteger + secondInteger)
     // return firstInteger + secondInteger
     // return "Hello"
-    if(typeof firstInteger === "number" && secondInteger === "number"){
+    if(typeof(firstInteger) === "number" && typeof (secondInteger) === "number"){
         return firstInteger + secondInteger
     } else{
         return "valamelyik argumentum nem szam ezert a muvelet nem elvegezheto"
