@@ -12,7 +12,7 @@
 // Ket & jel && : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND
 // Logical AND (&&) evaluates operands from left to right, returning immediately with the value of the first falsy operand it encounters; if all values are truthy, the value of the last operand is returned.
 
-//     if(typeof firstInteger === "number" && secondInteger === "number"){
+//     if(typeof firstInteger === "number" && typeof secondInteger === "number"){
 //         return firstInteger + secondInteger
 //     } else{
 //         return "valamelyik argumentum nem szam ezert a muvelet nem elvegezheto"
@@ -22,7 +22,7 @@
 // Mivel az egyik primitiv nem szam, igy nem fogja oket osszeadni
 // console.log( addTwoIntegers(12, "13") );
 
-// Mivel mindket primitiv szam, ezert ossze fogja oket adni. Odafenn a return-nel mar meghataroztuk, hogy mit csinaljon. MEgmondtuk neki, hogy az addTwoIntergers mit jelent
+// Mivel mindket primitiv szam, ezert ossze fogja oket adni. Odafenn a return-nel mar meghataroztuk, hogy mit csinaljon. Megmondtuk neki, hogy az addTwoIntergers mit jelent
 // console.log( addTwoIntegers(1920, 85) );
 // console.log( 0 === "0" )
 
@@ -47,7 +47,7 @@ function loadEvent(eventObject){
     let anchors = "";
 
     for (const sectionElement of listOfSectionElements) {
-        // sectionElement.classList.add("newClass"); 
+        sectionElement.classList.add("newClass"); 
         // anchors = anchors + `<a> ${ sectionElement.id} </a>`;
          // The addition assignment operator (+=) adds the value of the right operand to a variable and assigns the result to the variable. The types of the two operands determine the behavior of the addition assignment operator. Addition or concatenation is possible.
         anchors += `<a href="#${sectionElement.id}"> ${ sectionElement.id} </a>`;
@@ -55,4 +55,5 @@ function loadEvent(eventObject){
     console.log(anchors);
     roootElement.insertAdjacentHTML("afterbegin", `<header>${anchors}</header>`)
 }
-window.addEventListener("load", loadEvent)
+
+window.addEventListener("load", loadEvent);
